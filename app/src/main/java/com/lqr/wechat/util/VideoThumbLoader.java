@@ -6,8 +6,9 @@ import android.os.AsyncTask;
 import android.os.Handler;
 import android.os.Message;
 import android.provider.MediaStore;
-import android.support.v4.util.LruCache;
 import android.widget.ImageView;
+
+import androidx.collection.LruCache;
 
 /**
  * @创建者 CSDN_LQR

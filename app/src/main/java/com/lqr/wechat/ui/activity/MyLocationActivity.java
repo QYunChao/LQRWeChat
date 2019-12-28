@@ -4,13 +4,14 @@ import android.hardware.Sensor;
 import android.hardware.SensorEvent;
 import android.hardware.SensorEventListener;
 import android.hardware.SensorManager;
-import android.support.v7.widget.GridLayoutManager;
-import android.support.v7.widget.RecyclerView;
 import android.view.View;
 import android.widget.Button;
 import android.widget.ImageButton;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
+
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
 import com.lqr.recyclerview.LQRRecyclerView;
 import com.lqr.wechat.R;
@@ -40,7 +41,7 @@ import com.tencent.tencentmap.mapsdk.map.MapView;
 import com.tencent.tencentmap.mapsdk.map.TencentMap;
 import com.zhy.autolayout.AutoLinearLayout;
 
-import butterknife.Bind;
+import butterknife.BindView;
 
 /**
  * @创建者 CSDN_LQR
@@ -60,17 +61,17 @@ public class MyLocationActivity extends BaseActivity<IMyLocationAtView, MyLocati
     private Circle accuracy;
     private TencentSearch mTencentSearch;
 
-    @Bind(R.id.btnToolbarSend)
+    @BindView(R.id.btnToolbarSend)
     Button mBtnToolbarSend;
-    @Bind(R.id.rlMap)
+    @BindView(R.id.rlMap)
     RelativeLayout mRlMap;
-    @Bind(R.id.map)
+    @BindView(R.id.map)
     MapView mMap;
-    @Bind(R.id.ibShowLocation)
+    @BindView(R.id.ibShowLocation)
     ImageButton mIbShowLocation;
-    @Bind(R.id.rvPOI)
+    @BindView(R.id.rvPOI)
     LQRRecyclerView mRvPOI;
-    @Bind(R.id.pb)
+    @BindView(R.id.pb)
     ProgressBar mPb;
 
     @Override

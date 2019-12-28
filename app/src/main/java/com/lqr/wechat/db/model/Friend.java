@@ -1,7 +1,8 @@
 package com.lqr.wechat.db.model;
 
-import android.support.annotation.NonNull;
 import android.text.TextUtils;
+
+import androidx.annotation.NonNull;
 
 import org.litepal.crud.DataSupport;
 

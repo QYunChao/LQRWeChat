@@ -1,9 +1,10 @@
 package com.lqr.wechat.util;
 
 import android.app.ProgressDialog;
-import android.support.v4.app.FragmentActivity;
 import android.text.TextUtils;
 import android.widget.Toast;
+
+import androidx.fragment.app.FragmentActivity;
 
 import com.lqr.wechat.db.DBManager;
 import com.lqr.wechat.model.cache.UserCache;
